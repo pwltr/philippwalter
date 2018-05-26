@@ -5,9 +5,8 @@
 	"license": "MIT",
 	"repository": "pwltr/philippwalter",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"name": "Philipp Walter",
+		"email": "philippwalter@pm.me"
 	},
 	"bin": {
 		"philippwalter": "source/cli.js"
