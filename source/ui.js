@@ -20,31 +20,31 @@ const handleSelect = item => {
 const items = [
 	{
 		label: 'Website',
-		url: 'https://sindresorhus.com'
+		url: 'https://pwltr.com'
 	},
 	{
 		label: 'Twitter',
-		url: 'https://twitter.com/sindresorhus'
+		url: 'https://twitter.com/pwltr'
 	},
 	{
 		label: 'GitHub',
-		url: 'https://github.com/sindresorhus'
+		url: 'https://github.com/pwltr'
 	},
 	{
 		label: 'Blog',
-		url: 'https://blog.sindresorhus.com'
+		url: 'https://blog.pwltr.com'
 	},
 	{
 		label: 'Ask Me Anything',
-		url: 'https://github.com/sindresorhus/ama'
+		url: 'https://github.com/pwltr/ama'
 	},
 	{
 		label: 'Contact',
-		url: 'https://sindresorhus.com/contact'
+		url: 'https://pwltr.com/contact'
 	},
 	{
 		label: 'Support my open source work',
-		url: 'https://www.patreon.com/sindresorhus'
+		url: 'https://www.patreon.com/pwltr'
 	},
 	{
 		label: 'Unicorns!',
@@ -67,7 +67,7 @@ module.exports = () => (
 	<div>
 		<br/>
 		<div>
-			<Text>I’m a full-time open-sourcerer making things like macOS apps, CLI tools, and modules.</Text>
+			<Text>I’m a FullStack JavaScript Dev making things like macOS apps, CLI tools, and modules.</Text>
 		</div>
 		<br/>
 		<SelectInput items={items} onSelect={handleSelect}/>
